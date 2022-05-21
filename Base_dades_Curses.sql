@@ -49,7 +49,7 @@ CREATE TABLE curses (
 
 	CONSTRAINT FK_CURSES_TEMPORADES FOREIGN KEY (temporada_id) REFERENCES temporades(temporada_id)
 );
-
+-- Taula per si s'aplica un sistema de dorsals
 -- CREATE TABLE dorsals (
 -- 	dorsal_id	SMALLINT UNSIGNED,
 -- 	cursa_id	SMALLINT UNSIGNED,
